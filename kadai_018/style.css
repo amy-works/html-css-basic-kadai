@@ -47,7 +47,6 @@ p {
 }
 
 #bottom {
-    position: relative;
     width: 800px;
     height: 300px;
     background-color: #87ceeb;
@@ -55,16 +54,13 @@ p {
 }
 
 #bottom #bottom-child01 {
-    position: absolute;
-    left:0px;
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
 }
 
 #bottom #bottom-child02 {
-    position: absolute;
-    top:100px;
+    position: relative;
     left: 200px;
     width: 400px;
     height: 100px;
@@ -72,8 +68,7 @@ p {
 }
 
 #bottom #bottom-child03 {
-    position: absolute;
-    top: 200px;
+    position: relative;
     left: 400px;
     width: 400px;
     height: 100px;
